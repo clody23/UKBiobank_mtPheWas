@@ -1,0 +1,10 @@
+Haplogroups	Color
+A	darkcyan
+B	mediumpurple
+C	firebrick
+D	salmon
+F	forestgreen
+G	black
+M	bisque
+N9	pink
+R9	chocolate
