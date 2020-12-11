@@ -1,0 +1,8 @@
+Haplogroups	Color
+L0	aquamarine
+L1	cornflowerblue
+L2	brown
+L3	cornsilk
+L4	palegreen
+L5	khaki
+L6	violet
