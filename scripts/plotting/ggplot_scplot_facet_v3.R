@@ -59,7 +59,9 @@ bp<- bp + theme(plot.title = element_text(hjust = 0.5),
 	axis.title.y = element_text(size=18,family="Helvetica",face="bold"),
 	legend.text = element_text(size=14,family="Helvetica"),
 	legend.title = element_text(size=14,family="Helvetica",face="bold"),
-	legend.key = element_blank())
+	legend.key = element_blank(),
+	panel.grid.major = element_blank(),
+	panel.grid.minor = element_blank())
 
 bp<- bp + scale_x_continuous(limits = c(0, 3.5)) + scale_y_continuous(limits = c(0, 3.5))
 
@@ -70,7 +72,7 @@ dat_text <- data.frame(
 
 bp<- bp + geom_text(data = dat_text,mapping = aes(x = c(2,2),y = c(3,3), label = label),fontface = "bold",size = 3,family="Helvetica",color="black")  
 
-bp + geom_abline(slope=1, intercept=0,linetype='F1',colour='gray29')
+bp + geom_abline(slope=1, intercept=0,linetype='F1',colour='gray29') + theme_classic()
 
 ggsave(outfile,units='in',width=9,height=6)
 

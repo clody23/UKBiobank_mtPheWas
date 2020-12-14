@@ -45,10 +45,13 @@ bp<- bp + theme(plot.title = element_text(hjust = 0.5),
 	axis.title.y = element_text(size=14,family="Helvetica",face="bold"),
 	legend.text = element_text(size=13,family="Helvetica"),
 	legend.title = element_text(size=13,family="Helvetica",face="bold"),
-	legend.key = element_blank()) +
-	coord_fixed(xlim = c(1, 5),ylim = c(1,5))
+	legend.key = element_blank(),
+	panel.grid.major = element_blank(),
+	panel.grid.minor = element_blank()) +
+	coord_fixed(xlim = c(0, 5),ylim = c(0,5))
+
 bp<- bp + geom_abline(slope=1, intercept=0,linetype='F1',colour='gray29')
-bp + annotate("text",x = 4, y = 2, label = "N = 241 \n Rho = 0.99 \n P < 2.2e-16",fontface = "bold",size = 5,family="Helvetica",color="black")
+bp + annotate("text",x = 4, y = 2, label = "N = 241 \n Rho = 0.99 \n P < 2.2e-16",fontface = "bold",size = 5,family="Helvetica",color="black") + theme_classic()
 ggsave(outfile,units='in',width=5,height=5)
 
 print("Done.")
