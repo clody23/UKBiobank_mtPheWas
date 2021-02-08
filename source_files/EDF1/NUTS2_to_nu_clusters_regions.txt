@@ -1,0 +1,42 @@
+NUTS2	NU_CL	Colors
+UKC1	North East and West	#d55e00
+UKC2	North East and West	#d55e00
+UKD1	North East and West	#d55e00
+UKD3	Yorkshire, North West	#cc79a7
+UKD4	Yorkshire, North West	#cc79a7
+UKD6	Yorkshire, North West	#cc79a7
+UKD7	Yorkshire, North West	#cc79a7
+UKE1	Yorkshire, North West	#cc79a7
+UKE2	Yorkshire, North West	#cc79a7
+UKE3	Yorkshire, North West	#cc79a7
+UKE4	Yorkshire, North West	#cc79a7
+UKF1	Midlands,London,South East and West	#0072b2
+UKF2	Midlands,London,South East and West	grey
+UKF3	Midlands,London,South East and West	grey
+UKG1	Midlands,London,South East and West	grey
+UKG2	Midlands,London,South East and West	grey
+UKG3	Midlands,London,South East and West	#0072b2
+UKH1	Midlands,London,South East and West	#0072b2
+UKH2	Midlands,London,South East and West	#0072b2
+UKH3	Midlands,London,South East and West	#0072b2
+UKI3	Midlands,London,South East and West	#0072b2
+UKI4	Midlands,London,South East and West	grey
+UKI5	Midlands,London,South East and West	grey
+UKI6	Midlands,London,South East and West	grey
+UKI7	Midlands,London,South East and West	grey
+UKJ1	Midlands,London,South East and West	#0072b2
+UKJ2	Midlands,London,South East and West	grey
+UKJ3	Midlands,London,South East and West	grey
+UKJ4	Midlands,London,South East and West	grey
+UKK1	Midlands,London,South East and West	grey
+UKK2	Midlands,London,South East and West	grey
+UKK3	Midlands,London,South East and West	grey
+UKK4	Midlands,London,South East and West	grey
+UKL1	Wales	#009e73
+UKL2	Wales	#009e73
+UKM5	Scotland	#f0e442
+UKM6	Scotland	#f0e442
+UKM7	Scotland	grey
+UKM8	Scotland	grey
+UKM9	Scotland	grey
+UKN0	No data	grey
