@@ -5,7 +5,7 @@ This repository includes custom scripts used to perform the data analysis descri
 
 This repository is organized in the following directories:
 
-- scripts  includes all custom scripts used for mtSNVs variant recalling, to retrieve administrative regions (UK region, county and city) and link them to NUTS2 and for plotting of main figures.
+- `scripts` which includes all custom scripts used for mtSNVs variant recalling, to retrieve administrative regions (UK region, county and city) and link them to NUTS2 and for plotting of main figures.
 
-- source_files includes all source files used to plot main figures and extended data figures (EDFs)
+- `source_files` which includes all source files used to plot main figures and extended data figures (EDFs)
 
