@@ -24,4 +24,5 @@ This folder includes the scripts used to plot main figures and extended data fig
         Usage: 
                  Rscript plotfins_fig3.R
                  Rscript plotfins_fig4.R
-        
+
+- `misc` contains any other script used for supplementary figures and data visualization 
