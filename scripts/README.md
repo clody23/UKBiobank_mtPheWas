@@ -17,5 +17,3 @@ Usage:
 python get_UK_region.py infile.txt outfile.txt
 ```
 
-
-- `parse_ukbb_coord_by_city.py`
